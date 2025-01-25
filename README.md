@@ -1,27 +1,53 @@
 **Overview**
 
-This repository demonstrates the implementation of Convolutional Neural Network (CNN) architectures to classify and manage waste materials efficiently in a Smart Bin system. By using CNN models, the system achieves high accuracy in waste recognition and classification.
+This project aims to classify and categorize waste items using Convolutional Neural Networks (CNNs) for the Smart Bin system. By leveraging several state-of-the-art CNN architectures, the system is designed to efficiently classify waste items in real-time, allowing for better waste management and recycling. The following CNN models are used for the classification task:
 
-**Key Features**
+- DenseNet121
+- EfficientNetB3
+- MobileNetV2
+- ResNet50V2
+- VGG16
 
-- CNN Models: Implements state-of-the-art CNN architectures for waste classification.
-- High Accuracy: Designed for precise waste sorting and management.
-- Edge Deployment: Optimized for real-time use on IoT-enabled Smart Bins.
+Each of these models is evaluated based on its classification performance for identifying waste items.
 
-**Technologies Used**
+**Models and Results:**
 
-- Convolutional Neural Networks (CNN): For waste classification.
-- Python: Programming language for model development.
-- Deep Learning Frameworks: PyTorch .
+- **DenseNet121:**
 
-**Applications**
+    Model: DenseNet architecture with 121 layers.
+    Performance: 98% accuracy.
 
-- Recycling facilities for waste sorting.
-- Urban waste management systems.
-- Integration with IoT-enabled Smart Bins for real-time use.
+- **EfficientNetB3:**
 
-**Future Plans**
+    Model: EfficientNetB3, a lightweight but high-performing model.
+    Performance: 98% accuracy.
 
-- Explore lightweight CNN models for mobile and embedded deployment.
-- Enhance datasets to cover more waste categories.
-- Combine CNN-based classification with robotic sorting mechanisms.
+- **MobileNetV2:**
+
+    Model: MobileNetV2, optimized for mobile and embedded devices.
+    Performance: 98% accuracy.
+
+- **ResNet50V2:**
+
+    Model: ResNet50V2, a residual network model.
+    Performance: 98% accuracy.
+
+- **VGG16:**
+
+    Model: VGG16, a classical CNN model with deep architecture.
+    Performance: 96% accuracy.
+
+These models demonstrate the effectiveness of CNNs in waste item classification, showcasing their potential for use in a Smart Bin system for waste management.
+
+
+**How It Works**
+
+In this project, we use several CNN architectures to classify waste items in the Smart Bin system. The models were trained using waste image datasets and then evaluated based on their performance.
+
+The models were selected for their efficiency, accuracy, and ability to perform well on image classification tasks:
+
+- DenseNet121: Known for its compact architecture and high performance.
+- EfficientNetB3: A highly efficient model that performs well even with fewer parameters.
+- MobileNetV2: Optimized for mobile and edge computing devices, ideal for real-time applications.
+- ResNet50V2: A deep architecture that uses residual connections to avoid vanishing gradient problems.
+- VGG16: A classical deep CNN model, widely used in image classification tasks.
